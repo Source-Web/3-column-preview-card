@@ -1,0 +1,126 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white-paragraph: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray-other: hsl(0, 0%, 95%);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--Very-light-gray-other);
+}
+
+main {
+    width: 920px;
+    margin: 168px 0 130px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.sedan {
+    padding: 48px 50px 48px 48px;
+    background: var(--Bright-orange);
+
+}
+
+.suvs {
+    padding: 48px 50px 48px 48px;
+    background: var(--Dark-cyan);
+}
+
+.luxury {
+    padding: 48px 50px 48px 48px;
+    background: var(--Very-dark-cyan);
+}
+
+img {
+    margin-bottom: 31px;
+}
+
+h1 {
+    margin-bottom: 26px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: var(--Very-light-gray-other);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 83px;
+    font-size: 15px;
+    line-height: 1.66;
+    color: var(--Transparent-white-paragraph);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+button {
+    width: 146px;
+    border-radius: 50px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background: var(--Very-light-gray-other);
+    letter-spacing: .8px;
+    font-size: 14px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    transition: linear 0.5s;
+}
+
+button:hover {
+    background: none;
+    border: solid 2px var(--Very-light-gray-other);
+    color: var(--Transparent-white-paragraph);
+}
+
+.sedanBtn {
+    color: var(--Bright-orange);
+}
+
+.suvsBtn {
+    color: var(--Dark-cyan);
+}
+
+.luxuryBtn {
+    color: var(--Very-dark-cyan);
+}
+
+/*Mobile*/
+
+@media only screen and (max-width: 822px){
+    body {
+        padding: 0 23px 0 23px;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 86px 0 86px 0;
+    }
+
+    .sedan {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .luxury {
+        border-radius: 0 0 8px 8px;
+    }
+
+    p {
+        margin-bottom: 25px;
+    }
+}
