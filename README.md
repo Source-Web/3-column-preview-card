@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [3 Column Preview Card](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub/responsive-nft-product-preview-card-using-css-flex-box-88Fo1Ar5jY)
-- Live Site URL: [3 Column Preview Card](https://source-web.github.io/nft-preview-card/)
+- Solution URL: [3 Column Preview Card](https://www.frontendmentor.io/solutions/3-column-preview-card-using-html5-css-grid-and-flex-box-6RHPLpJLDZ)
+- Live Site URL: [3 Column Preview Card](https://source-web.github.io/3-column-preview-card/)
 
 ## My process
 

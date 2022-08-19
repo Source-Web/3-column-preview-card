@@ -21,7 +21,7 @@ body {
 
 main {
     width: 920px;
-    margin: 168px 0 130px 0;
+    margin: 170px 0 130px 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     overflow: hidden;
