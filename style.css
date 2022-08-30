@@ -31,21 +31,32 @@ main {
 .sedan {
     padding: 48px 50px 48px 48px;
     background: var(--Bright-orange);
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .suvs {
     padding: 48px 50px 48px 48px;
     background: var(--Dark-cyan);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .luxury {
     padding: 48px 50px 48px 48px;
     background: var(--Very-dark-cyan);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 img {
-    margin-bottom: 31px;
+    margin-bottom: 35px;
 }
 
 h1 {
@@ -66,13 +77,16 @@ p {
     font-weight: 400;
 }
 
-button {
+.button {
+    display: block;
     width: 146px;
+    text-decoration: none;
     border-radius: 50px;
-    height: 48px;
-    border: none;
+    padding: 13px 24px;
+    border: solid 2px var(--Very-light-gray-other);
     outline: none;
     background: var(--Very-light-gray-other);
+    text-align: center;
     letter-spacing: .8px;
     font-size: 14px;
     font-family: 'Lexend Deca', sans-serif;
@@ -81,7 +95,7 @@ button {
     transition: linear 0.5s;
 }
 
-button:hover {
+.button:hover {
     background: none;
     border: solid 2px var(--Very-light-gray-other);
     color: var(--Transparent-white-paragraph);
